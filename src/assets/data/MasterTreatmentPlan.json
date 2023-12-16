@@ -1,0 +1,150 @@
+{
+  "id": "",
+  "pid": "",
+  "lastVisit": "",
+  "recreationalTherapist": {
+    "id": "",
+    "admissionDate": null,
+    "treatmentTeamDate": null,
+    "nextReviewDate": null,
+    "createdAt": "",
+    "updatedAt": ""
+  },
+  "socialWorkRecorder": {
+    "id": "",
+    "legalStatus": {
+      "currentStatus": "",
+      "voluntary": "",
+      "legalGuardian": "",
+      "collectionType": "",
+      "address": "",
+      "telephoneNumber": "",
+      "courtDate": null,
+      "courtOrder": ""
+    },
+    "dsm5Diagnoses": [
+      ""
+    ],
+    "therapistRecorder": [
+      {
+        "patientStrengthsAssets": "",
+        "liabilities": ""
+      }
+    ],
+    "dischargeContinuingCarePlan": {
+      "livingArrangement": {
+        "livingArrangements": "",
+        "phoneNumber": "",
+        "address": "",
+        "independentLiving": "",
+        "modeOfTransportation": ""
+      },
+      "workSchool": {
+        "returnToJobAt": "",
+        "returnJobOn": null,
+        "returnToSchoolAt": "",
+        "returnSchoolOn": null
+      },
+      "mentalHealthTreatmentAppoinment": {
+        "agency": "",
+        "telephone": "",
+        "therapist": "",
+        "psychiatrist": "",
+        "address": ""
+      },
+      "supportGroup": {
+        "recommendationsReferral": "",
+        "telephone": "",
+        "address": "",
+        "location": ""
+      },
+      "medicalAftercareRecommendationsReferral": {
+        "problem": "",
+        "primaryCarePhysician": "",
+        "telephone": "",
+        "address": "",
+        "otherCare": "",
+        "dietANdAftercareRecommentations": "",
+        "recreationalTherapyRecommentations": ""
+      }
+    },
+    "familySignificantOtherInvolvement": {
+      "familyContact": {
+        "familyContacted": true,
+        "familyparticipatedInTreatmentPlanning": true,
+        "familyDeclinesToParticipate": true,
+        "patientDeclinesFamilyParticipationAtThis": true
+      },
+      "interventions": {
+        "phoneContact": true,
+        "familyTherapy": true,
+        "resourcesGiven": true,
+        "familyMeeting": true,
+        "education": true,
+        "date": "",
+        "other": ""
+      }
+    },
+    "guardianInvolvementInIndividualPlanOfService": {
+      "patientChooseNotToAttend": true,
+      "attendedTheTreatmentTeamConference": true,
+      "receivedACopyOfMyTreatmentPlan": true,
+      "agreeWithMyTreatmentPlanUpdate": true,
+      "patientComments": "",
+      "patientDate": "",
+      "patientSignature": "",
+      "guardianReceivedCopyOfTreatmentPlan": "",
+      "guardianComments": "",
+      "guardianDate": null,
+      "guardianSignature": ""
+    },
+    "createdAt": "",
+    "updatedAt": ""
+  },
+  "nursing": {
+    "id": "",
+    "behavioralProblems": [
+      {
+        "problem": "",
+        "behavioralProblem": ""
+      }
+    ],
+    "allMedications": [
+      {
+        "name": "",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "createdAt": "",
+    "updatedAt": ""
+  },
+  "medicalPractitioner": {
+    "id": "",	
+    "medicalProblems": [
+      {
+        "problem": "",
+        "activeMedicalProblem": ""
+      }
+    ],
+    "chronicStaticProblems": [
+      {
+        "problem": "",
+        "chronicProblems": ""
+      }
+    ],
+    "createdAt": "",
+    "updatedAt": ""
+  },
+  "participatingTreatmentTeamMemberSignatures": [
+    { 
+      "id": "",
+      "name": "",
+      "signature": "",
+      "date": null,
+      "time": "",
+      "createdAt": "",
+      "updatedAt": ""
+    }
+  ]
+}

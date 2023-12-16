@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "pid": "",
+  "lastVisit": "",
+  "imagingType": "",
+  "reasonForStudy": "",
+  "modifiers": "",
+  "dateDesired": null,
+  "clinicalHistory": "",
+  "urgency": "",
+  "transport": "",
+  "category": "",
+  "submitTo": "",
+  "preOpScheduled": null,
+  "examsOver": "",
+  "orderedBy": "",
+  "enteredBy": "",
+  "isolation": true,
+  "pragnant": "",
+  "organization": "",
+  "createdAt": "",
+  "updatedAt": ""
+}
