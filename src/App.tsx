@@ -53,6 +53,7 @@ import {
 import { HttpLogin } from "./utils/Http";
 import MenuItem from "@mui/material/MenuItem";
 import { Dialog, DialogContentText } from "@mui/material";
+import { PatientStaffConfiguration } from "./containers/pages/Q15/PatientStaff/PatientStaffConfiguration";
 
 interface IAppProps {
 }
@@ -708,6 +709,8 @@ class App extends Component<Props, IAppState> {
                                 <>
                                   <a className="dashbordHover" onClick={() => { window.location.href = "/MettlerAddOrganization" }}><img style={{ height: '36px', width: "38px" }} alt="" src={plusImage} /></a>
                                   <a className="dashbordHover" style={{ cursor: 'pointer' }} onClick={() => { window.location.href = "/MettlerOrganizationList" }}><img style={{ height: '20px', width: "20px" }} alt="" src={organizationImage} /><span className="dashbord">Organization Details</span></a>
+                                  <a className="dashbordHover" style={{ cursor: 'pointer' }} onClick={() => { window.location.href = "/patient-staff-configuration" }}><img style={{ height: '20px', width: "20px" }} alt="" src={organizationImage} /><span className="dashbord">Q15 Patient Staff Configuration</span></a>
+
                                 </>}
                               {this.state.userType === "Admin" &&
                                 <>
@@ -760,9 +763,6 @@ class App extends Component<Props, IAppState> {
               {this.state.iconmenuActive && (
                 <div className="layout-main PatientData" style={{ marginLeft: '60px', background: window.location.pathname === "/MettlerPatientDetails" ? "#F2F4F9" : '#fff' }}>
 
-
-
-
                   <Route path="/MettlerAdminDashboard" exact={true} component={AdminDashboardPage} />
                   <Route path="/MettlerOrganizationDetails" exact={true} component={OrganizationDetailsPage} />
                   <Route path="/MettlerOrganizationDetails/:id" exact={true} component={OrganizationDetailsPage} />
@@ -772,6 +772,7 @@ class App extends Component<Props, IAppState> {
                   <Route path="/MettlerQ15Reports" exact={true} component={Q15Reports} />
                   <Route path="/MettlerQ15ReportsViews" exact={true} component={Q15ReportsViews} />
                   <Route path="/MettlerOrganizationList" exact={true} component={AllOrganizationList} />
+                  <Route path="/patient-staff-configuration"  component={PatientStaffConfiguration} />
 
                 </div>
               )}

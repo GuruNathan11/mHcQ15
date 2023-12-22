@@ -1,0 +1,103 @@
+.staff {
+    background: rgb(242, 244, 249);
+
+}
+
+.patinetTop {
+    top: 50px;
+
+
+}
+
+
+.patient {
+    top: 30px;
+    width: calc(100% - 10px);
+    height: 50px;
+    top: 30px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #F8FAFB;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.q15-title {
+    color: var(--default, #3F3F46);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    left: 10px;
+    top: 0px;
+
+}
+
+
+.p-tabview-nav {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+
+.p-tabview.p-tabview-top .p-tabview-nav li a,
+body .p-tabview.p-tabview-bottom .p-tabview-nav li a,
+body .p-tabview.p-tabview-left .p-tabview-nav li a,
+body .p-tabview.p-tabview-right .p-tabview-nav li a {
+    border: none !important;
+    /* background-color: #fff !important; */
+    float: none;
+    display: inline-block;
+    color: #333333;
+    padding: 0.571em 1em;
+    font-weight: 700;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.p-tabview-selected {
+    color: red !important;
+}
+
+.p-tabview-selected .p-highlight {
+    background-color: #fff !important;
+    color: red !important;
+
+
+}
+
+
+.tab-align {
+    padding: 2vh 10vh;
+}
+
+
+.p-tabview-panels {
+    border: none !important;
+}
+
+.card-bg {
+    background: rgb(242, 244, 249);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 70px;
+    padding-top: 4px;
+}
+
+.date-aligin{
+    margin-top: 25px !important
+}
+
+
+.patient-submit {
+    width: 15vh !important;
+}
+
+.submit-section {
+    text-align: center !important;
+}
